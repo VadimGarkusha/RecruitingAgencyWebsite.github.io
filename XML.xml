@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/css" href="css/xmlStyle.css"?>
+<!-- Frederico Galdino - 300895978 -->
+<List>
+<title>Job List</title>
+<subtitle>Recruting Agency</subtitle>
+<vacancy>
+<jobID>57791</jobID>
+<jobTitle>Network Engineer</jobTitle>
+<companyName>Scotiabank</companyName>
+<address>1137 Markham Road</address>
+<email>hr@scotiabank.ca</email>
+<city>Toronto</city>
+<province>Ontario</province>
+<openDate>11/24/2016</openDate>
+<closeDate>02/31/2017</closeDate>
+</vacancy>
+<vacancy>
+<jobID>16094</jobID>
+<jobTitle>Network Security Operations Analyst</jobTitle>
+<companyName>Manulife</companyName>
+<address>200 Bloor Street East</address>
+<email>taleo@manulife.com</email>
+<city>Toronto</city>
+<province>Ontario</province>
+<openDate>11/01/2016</openDate>
+<closeDate>Ongoing</closeDate>
+</vacancy>
+<vacancy>
+<jobID>23977</jobID>
+<jobTitle>Web Designer/Developer</jobTitle>
+<companyName>University of Toronto</companyName>
+<address>27 King's College Circle</address>
+<email>gradschool@utoronto.ca</email>
+<city>Toronto</city>
+<province>Ontario</province>
+<openDate>10/15/2016</openDate>
+<closeDate>Ongoing</closeDate>
+</vacancy>
+<vacancy>
+<jobID>34569</jobID>
+<jobTitle>Junior Developer, Database</jobTitle>
+<companyName>Indigo</companyName>
+<address>468 King St. W</address>
+<email>your@indigo.ca</email>
+<city>Toronto</city>
+<province>Ontario</province>
+<openDate>11/25/2016</openDate>
+<closeDate>Ongoing</closeDate>
+</vacancy>
+<vacancy>
+<jobID>45689</jobID>
+<jobTitle>Junior Full Stack Developer</jobTitle>
+<companyName>RBC</companyName>
+<address>88 Queens Quay</address>
+<email></email>
+<city>Toronto</city>
+<province>Ontario</province>
+<openDate>11/22/2016</openDate>
+<closeDate>12/30/2016</closeDate>
+</vacancy>
+<vacancy>
+<jobID>15007</jobID>
+<jobTitle>Developer, Finance Applications</jobTitle>
+<companyName>Bell</companyName>
+<address>88 Queens Quay</address>
+<email>jobs@bell.ca</email>
+<city>Ottawa</city>
+<province>Ontario</province>
+<openDate>11/29/2016</openDate>
+<closeDate>12/13/2016</closeDate>
+</vacancy>
+<vacancy>
+<jobID>15024</jobID>
+<jobTitle>Video Game Developer</jobTitle>
+<companyName>Prodigy</companyName>
+<address>1100 Burloak Drive, Suite 200</address>
+<email>jobs@prodigygame.com</email>
+<city>Burlington</city>
+<province>Ontario</province>
+<openDate>11/21/2016</openDate>
+<closeDate>12/13/2016</closeDate>
+</vacancy>
+</List>

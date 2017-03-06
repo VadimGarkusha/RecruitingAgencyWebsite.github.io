@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!--Vadym Harkusha 300909484 | Shreyans Sharma-->
+<title>Resume</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" href="images/icon.ico" type="image/x-icon">
+<link href="css/style.css" type="text/css" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-btn-block w3-light-grey">Home</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="jobs.html" class="w3-btn-block w3-light-grey">Jobs</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="about.html" class="w3-btn-block w3-light-grey">About us</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="contact.html" class="w3-btn-block w3-light-grey">Contact us</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:60px;margin-bottom:80px">
+
+  <div class="w3-panel">
+    <h1><b>LEAVE YOUR RESUME</b></h1>
+  </div>
+
+<div class="w3-row-padding">
+<div class="w3-third w3-margin-bottom" style="width:100%;">
+<div class="w3-card-4">
+ <img src="images/resume.jpg" alt="Resume" style=" width:100% ">
+<div class="w3-container">
+
+  
+<center>
+<h4 style="margin-bottom: 0px;">Fill the following fields please to let us help you</h4> 
+  <form class="w3-container" action="form.asp" target="_blank">
+    <div class="w3-group">
+      <label>First name</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="firstName" placeholder="John" required="required">
+    </div>
+	<div class="w3-group">
+      <label>Last name</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="lastName" placeholder="Smith" required="required">
+    </div>
+    <div class="w3-group">
+      <label>Email</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="email" name="Email" required="required" placeholder="name@gmail.com">
+    </div>
+	<div class="w3-group">
+      <label>Phone number</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="phone" name="phone" required="required" placeholder="123-456-7890">
+    </div>
+	<div class="w3-group">
+      <label>Province</label>
+	  <select  class="w3-input w3-border w3-hover-border-black">
+	<option value="AB">Alberta</option>
+	<option value="BC">British Columbia</option>
+	<option value="MB">Manitoba</option>
+	<option value="NB">New Brunswick</option>
+	<option value="NL">Newfoundland and Labrador</option>
+	<option value="NS">Nova Scotia</option>
+	<option value="ON">Ontario</option>
+	<option value="PE">Prince Edward Island</option>
+	<option value="QC">Quebec</option>
+	<option value="SK">Saskatchewan</option>
+	<option value="NT">Northwest Territories</option>
+	<option value="NU">Nunavut</option>
+	<option value="YT">Yukon</option>
+</select>
+    </div>
+	
+    <div class="w3-group">
+      <label>Postal code</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="postCode" 
+		required="required" 
+		pattern="([0-9]{5}(-[0-9]{4})?)|([0-9][A-Z][0-9]\s+[A-Z][0-9][A-Z])"
+		title="Canadian: 0A1&#160;B2C" style="width: 185px" placeholder="J9K 4T7">
+	</div>
+	
+    <div class="w3-group">
+      <label>Position title</label>
+      <input class="w3-input w3-border w3-hover-border-black" style="width:100%" name="position" placeholder="Web Developer" required="required">  </textarea>
+    </div>
+	
+	<div class="w3-group">
+      <label>Type of the job</label>
+     <select  class="w3-input w3-border w3-hover-border-black">
+	<option value="AB">Full-time</option>
+	<option value="BC">Part-time</option>
+	<option value="MB">Internship</option>
+	<option value="NB">Volunteer</option>
+	<option value="NL">Freelance</option>
+	<option value="NS">Contract</option>
+	<option value="ON">Permanent</option>
+</select>
+    </div>
+	
+	<div class="w3-group">
+      <label>Enter College/University education</label>
+	<textarea class="w3-input w3-border w3-hover-border-black" style="width:100%" rows="4" cols="50" name="College/University" form="usrform" ></textarea>
+	</div>
+	
+<div class="w3-group">
+      <label>Other diplomas/certificates</label>
+	<textarea class="w3-input w3-border w3-hover-border-black" style="width:100%" rows="3" cols="50" name="diplomas/certificates" form="usrform"></textarea>
+	</div>
+	
+<div class="w3-group">
+      <label>Experience in field related with job</label>
+	<select class="w3-input w3-border w3-hover-border-black" style="width:100%">
+<option value="empty"> </option>
+<option value>No experiance </option>
+<option value>Less than an year</option>
+<option value>More than 2 years</option>
+<option value="Friends">More than 5 years</option>
+</select>
+</div>
+
+<div>
+<label>Open to relocation</label>
+<div class="w3-group w3-input w3-border w3-hover-border-black" style="width:100%">
+<input type="radio" name="relocation" value="yes" style="margin-left:1%;">Yes 
+<input  type="radio" name="relocation" value="no" style="margin-left:30%;">No
+</div>
+</div>
+	
+    <button type="submit" class="w3-btn w3-btn-block w3-padding-12">Submit your resume</button>
+  <br></br>
+  </form>
+</center>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-container w3-padding-32 black w3-center">
+ <div class="w3-row w3-large">
+    <div class="w3-col sf">
+      <a href="WorkWithUs.html" class="w3-btn-block black">Work with us</a>
+    </div>
+	<div class="w3-col sf">
+      <a href="resume.html" class="w3-btn-block black">Resume</a>
+    </div>
+	<div class="w3-col sf">
+      <a href="advices.html" class="w3-btn-block black">Advices and statistics</a>
+    </div>
+    <div class="w3-col sf">
+      <a href="SiteMap.html" class="w3-btn-block black">Site map</a>
+    </div>
+    <div class="w3-col sf">
+      <a href="XML.xml" class="w3-btn-block black">XML page</a>
+    </div>
+  </div>
+  <hr align="center" border-width="2px" color="#fff">
+  <div class="copy">
+  <h6>&copy; Copyright | Harkusha Vadym - Frederico de Moraes Galdino - Galiya Nassipova - Shreyans Sharma | COMP213 - Web Interface Design - Fall 2016</h6>
+</div>
+  </footer>
+
+
+</body>
+</html>
